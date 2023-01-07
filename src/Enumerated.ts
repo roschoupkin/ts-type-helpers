@@ -1,5 +1,5 @@
 /**
- * Enumerate digits for from zero to TLength
+ * Enumerates digits for from zero to TLength
  *
  * @example
  * Enumerated<5> -> 0 | 1 | 2 | 3 | 4

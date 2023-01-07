@@ -3,7 +3,7 @@ import type { PickByType } from './PickByType';
 type AllowedKeyType = number | string | symbol;
 
 /**
- * Just a Record of types with key type
+ * Just a Record of types with the key type
  */
 
 export type EntitiesMap<TObject, TKeyType extends AllowedKeyType = AllowedKeyType> = Record<
