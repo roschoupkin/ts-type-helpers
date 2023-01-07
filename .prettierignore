@@ -1,0 +1,13 @@
+# Dependency directories
+.npm_cache
+node_modules/
+
+# Tests
+coverage
+
+# Build
+lib/
+es/
+
+# Auto-generated files
+package-lock.json

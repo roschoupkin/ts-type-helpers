@@ -1,0 +1,10 @@
+# Dependency directories
+.npm_cache
+node_modules/
+
+# Test
+coverage/
+
+# Build
+lib/
+es/

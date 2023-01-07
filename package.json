@@ -1,0 +1,60 @@
+{
+  "sideEffects": false,
+  "name": "ts-type-helpers",
+  "version": "0.0.0",
+  "author": "roschoupkin",
+  "license": "UNLICENSED",
+  "keywords": [
+    "typescript",
+    "helpers",
+    "collection"
+  ],
+  "description": "Additional types collection",
+  "homepage": "https://github.com/roschoupkin/ts-type-helpers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roschoupkin/ts-type-helpers"
+  },
+  "bugs": "https://github.com/roschoupkin/ts-type-helpers/issues",
+  "scripts": {
+    "test": "echo \"No tests, just types\"",
+    "format:check": "prettier --check .",
+    "format": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint": "eslint --fix .",
+    "clean": "rm -rf lib es",
+    "build:lib": "tsc --build tsconfig.lib.json",
+    "build:es": "tsc --build tsconfig.es.json",
+    "build": "npm run clean & npm run build:lib & npm run build:es",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "peerDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-compat": "^4.0.2",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}

@@ -1,0 +1,23 @@
+# Logs
+lerna-debug.log*
+npm-debug.log*
+
+# Dependency directories
+.npm_cache
+node_modules/
+
+# Tests
+coverage
+junit.xml
+
+# Build
+lib/
+es/
+*.tsbuildinfo
+
+# IDE / OS files
+*.sublime-project
+*.sublime-workspace
+.idea
+.vscode
+.DS_Store
