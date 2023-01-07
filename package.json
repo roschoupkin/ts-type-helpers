@@ -1,7 +1,7 @@
 {
   "sideEffects": false,
   "name": "ts-type-helpers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "roschoupkin",
   "license": "UNLICENSED",
   "keywords": [
