@@ -1,6 +1,6 @@
-export * from './ToObject';
-export * from './IsEqual';
 export * from './Range';
+export * from './IsEqual';
+export * from './ToObject';
 export * from './ArrayType';
 export * from './Enumerated';
 export * from './PickByType';
@@ -10,3 +10,4 @@ export * from './UnionsToTuple';
 export * from './NormalizeList';
 export * from './ToCamelCaseStr';
 export * from './ToCamelCaseDict';
+export * from './UnionToIntersection';

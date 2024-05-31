@@ -184,3 +184,14 @@ import { UnionsToTuple } from 'ts-type-helpers';
 
 UnionsToTuple<'a' | 'b'>; // ['a', 'b'] | ['b', 'a']
 ```
+
+### `UnionToIntersection`
+
+Converts unions to the intersections. Usefull, when you need to map object and the convert it to the intersected object.
+
+```ts
+import { UnionToIntersection } from 'ts-type-helpers';
+
+UnionToIntersection<'a' | 'b'>; // 'a' & 'b'
+UnionToIntersection<{ a: string } | { b: string }>; // { a: string } & { b: string }
+```
